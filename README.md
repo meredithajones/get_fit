@@ -38,7 +38,11 @@
 
 
 ## Usage 
-In order to run the application, open the server.js file in integrated terminal, run "npm install" to install dependencies, and then run "node server.js".
+In order to run the application, open the server.js file in integrated terminal, to install the dependencies:
+`npm install express`
+`npm install mongoose`
+`npm install morgan`
+Then run the command `node server.js` if the connection is successful, you will see the console log `App is listening on PORT` followed by the port number. 
 
 ### Screen Shots
 ![“”]()
