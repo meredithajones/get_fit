@@ -24,6 +24,7 @@ router.put("/api/workouts/:id", (req, res) => {
   Workout.findByIdAndUpdate(params.id, {$push: { exercises: body }})
   .then(dbGetFit => {res.json(dbGetFit)
   })
+  .catch(err => res.json(err))
 })
 
 //Use router.get to find range of workouts
@@ -31,6 +32,7 @@ router.get("/api/workouts/range", (req, res) => {
   Workout.find({})
   .then(dbGetFit => {res.json(dbGetFit);
   })
+  .catch(err=>res.json(err))
   
 }); 
 

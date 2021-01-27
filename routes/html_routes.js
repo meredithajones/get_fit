@@ -3,8 +3,7 @@ const router = require("express").Router();
 //We need "path" to access the static files for the html and create the routes.
 const path = require("path");
 
-//exporting router
-module.exports = router 
+
 
  //route for index.html
  router.get("/", (req,res) => {
@@ -18,3 +17,6 @@ router.get("/exercise", (req,res) => {
 router.get("/stats", (req,res) => {
     res.sendFile(path.join(__dirname, "../public/stats.html"))
 });   
+
+//exporting router
+module.exports = router ;
