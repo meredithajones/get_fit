@@ -19,8 +19,8 @@ app.use(morgan("dev"))
 app.use(express.json());
 
 //Setting up the api and html routes
-app.use(require("./routes/htmlRoutes.js"));
-app.use(require("./routes/apiRoutes"));
+app.use(require("./routes/html_routes.js"));
+app.use(require("./routes/api_routes.js"));
 
 //console log if running
 app.listen(PORT, () => {
