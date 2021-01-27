@@ -6,4 +6,15 @@ const path = require("path");
 //exporting router
 module.exports = router;
 
-   
+ //route for index.html
+ router.get("/", (req,res) => {
+    res.sendFile(path.join(__dirname, "../public/index.html"))
+});
+//route for exercise.html
+router.get("/exercise", (req,res) => {
+    res.sendFile(path.join(__dirname, "../public/exercise.html"))
+});
+//route for stats.html
+app.get("/stats", (req,res) => {
+    res.sendFile(path.join(__dirname, "../public/stats.html"))
+});   
