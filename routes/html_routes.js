@@ -3,7 +3,7 @@ const router = require("express").Router();
 //We need "path" to access the static files for the html and create the routes.
 const path = require("path");
 
-//exporting the router
+//exporting router
 module.exports = router 
 
  //route for index.html

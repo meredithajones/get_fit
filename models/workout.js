@@ -14,7 +14,7 @@ const workoutSchema = new Schema({
           type: {
             type: String,
             trim: true,
-            required: "Enter exercise type"
+            required: "Enter the type of exercise you are doing"
           },
           name: {
             type: String,
@@ -23,7 +23,7 @@ const workoutSchema = new Schema({
           },
           duration: {
             type: Number,
-            required: "Enter the duration of time"
+            required: "Enter the duration of time you spent exercising"
           },
           distance: {
             type: Number,
@@ -31,7 +31,7 @@ const workoutSchema = new Schema({
           },
           weight: {
             type: Number,
-            required: [false, "Enter weight"]
+            required: [false, "Enter weight being lifted"]
           },
           reps: {
             type: Number,
@@ -42,8 +42,8 @@ const workoutSchema = new Schema({
             required: [false, "Enter number of sets"]
           }
         }
-      ]
-    },
+      ]},
+
       {
         toJSON: {
           virtuals: true
@@ -61,3 +61,8 @@ const workoutSchema = new Schema({
         }
         return workoutDuration;
       });
+
+      //Creating "Workout model to export"
+      const Workout = mongoose.model("Workout", workoutSchema);
+//Export the model
+      module.exports = Workout;
