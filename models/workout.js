@@ -59,5 +59,5 @@ const workoutSchema = new Schema({
         for (let i = 0; i < this.exercises.length; i++) {
           workoutDuration += this.exercises[i].duration
         }
-        return totalDuration;
+        return workoutDuration;
       });
