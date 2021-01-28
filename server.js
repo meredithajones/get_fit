@@ -1,21 +1,26 @@
-//Requiring dependencies: express, mongoose, and morgan 
+//Requiring dependencies: express, mongoose, and morgan
 const express = require("express");
 const mongoose = require("mongoose");
-const morgan  = require('morgan')
+const morgan = require("morgan");
 
 //set up the port
 const PORT = process.env.PORT || 3000;
 
-//Running express app 
+//Running express app
 const app = express();
 
 //Setting up the connection to mongoosedb
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dbGetFit", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dbGetFit", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+  useFindAndModify: false,
+});
 
 //Setting up middleware
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
-app.use(morgan("dev"))
+app.use(morgan("dev"));
 app.use(express.json());
 
 //Setting up the api and html routes
