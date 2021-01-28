@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub repo size](https://img.shields.io/github/repo-size/meredithajones/get_fit?logo=github)
 ![GitHub top language](https://img.shields.io/github/languages/top/meredithajones/get_fit?color=green&logo=github&logoColor=green)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/meredithajones/note_taking_app?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/meredithajones/get_fit?style=flat-square)
 ![GitHub language count](https://img.shields.io/github/languages/count/meredithajones/get_fit)
 
 ![html badge](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
@@ -45,7 +45,11 @@ In order to run the application, open the server.js file in integrated terminal,
 Then run the command `node server.js` if the connection is successful, you will see the console log `App is listening on PORT` followed by the port number. 
 
 ### Screen Shots
-![“”]()
+ ### Gifs
+<br>
+ _App Functionality: Adding Workouts and viewing dashboard (gif demo)_
+<br>
+![Adding a strength exercise and cardio workout to be saved in the app](public/assets/imgs/gifs/workout.gif)
 
 ![“”]()
 
