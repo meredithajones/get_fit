@@ -53,7 +53,7 @@ const workoutSchema = new Schema({
 
     //Add virtual property to schema called workoutDuration
     workoutSchema
-      .virtual("workoutDuration")
+      .virtual("totalDuration")
       .get(function () {
         let workoutDuration = 0
         for (let i = 0; i < this.exercises.length; i++) {
