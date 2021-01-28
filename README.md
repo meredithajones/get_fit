@@ -1,9 +1,8 @@
-# get_fit
+# Get Fit Workout Logger
 ***
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub repo size](https://img.shields.io/github/repo-size/meredithajones/get_fit?logo=github)
 ![GitHub top language](https://img.shields.io/github/languages/top/meredithajones/get_fit?color=green&logo=github&logoColor=green)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/meredithajones/get_fit?style=flat-square)
 ![GitHub language count](https://img.shields.io/github/languages/count/meredithajones/get_fit)
 
 ![html badge](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
@@ -31,7 +30,7 @@
 
 ## Links
 
-* [Deployed Link]()
+* [Deployed Link](https://morning-reef-44056.herokuapp.com/)
 
 ## Introduction
  This is an application for a user who would like to be able to view create and track daily workouts. They are dedicated to exercise, and want to be able to log multiple unique exercises in a workout on a given day. With this app, they will be able to track the name, type, weight, sets, reps, and duration of exercise. When engaging in cardio exercise such as running, walking or biking, the user is able to track the distance that they have traveled. 
@@ -45,11 +44,16 @@ In order to run the application, open the server.js file in integrated terminal,
 Then run the command `node server.js` if the connection is successful, you will see the console log `App is listening on PORT` followed by the port number. 
 
 ### Screen Shots
+
+![“”]()
+
  ### Gifs
 <br>
+
  _App Functionality: Adding Workouts and viewing dashboard (gif demo)_
 <br>
-![Adding a strength exercise and cardio workout to be saved in the app](public/assets/imgs/gifs/workout.gif)
+
+![ Adding a strength exercise and cardio workout to be saved in the app](public/assets/imgs/gifs/workout.gif)
 
 ![“”]()
 
