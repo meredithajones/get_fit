@@ -66,25 +66,31 @@ Then run the command `node server.js` if the connection is successful, you will 
 <summary>Technology used to create application</summary>
 
 
-* mongodb
+* Mongodb
 
-* Express
+* Mongoose
 
 * Nodejs
 
-* 
-* 
+* HTML
+
+* CSS 
 	
 
 </details>
 
 
 ## Challenges
-*   
+*   While the actual work of writing the code for this application was a challenge, in the end the part that I struggled with the most was the actual deployment on Heroku. 
+
+I had to create a new user a number of times in Atlas, and reconnect to Heroku in order to finally have the application run properly outside of running it locally. 
 
 
 ## Credits
 
+* [MongoDB Cheat Sheet](https://gist.github.com/bradtraversy/f407d642bdc3b31681bc7e56d95485b6) 
+* [Introduction to Mongoose – Net Ninja YouTube Tutorial Series](https://www.youtube.com/watch?v=P1qaEuJrcGA) 
+* [How to use virtual function in Schema – Codata.com ](https://www.codota.com/code/javascript/functions/mongoose/Schema/virtual) 
 * [Stack Overflow general research](https://stackoverflow.com/) 
 * [Mdn web docs general research](https://developer.mozilla.org/en-US/)
 * [AskBCS bug fixes]
