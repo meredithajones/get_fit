@@ -7,6 +7,7 @@
 
 ![html badge](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![mongodb badge](https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white)
+![mongoose badge](https://img.shields.io/badge/Mongoose-%23800.svg?&style=for-the-badge&logoColor=white)
 ![express.js badge](https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge)
 ![node.js badge](https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white)
 ![heroku badge](https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white)
@@ -41,11 +42,15 @@ In order to run the application, open the server.js file in integrated terminal,
 * `npm install mongoose`
 * `npm install morgan`
 
-Then run the command `node server.js` if the connection is successful, you will see the console log `App is listening on PORT` followed by the port number. 
+Then run the command `node server.js` if the connection is successful, you will see the console log:
+
+ `App is listening on PORT` followed by the port number. 
+<br>
 
 ### Screen Shots
-
-![“”]()
+<br>
+_The Workout Dashboard Display_
+![“The workout dashboard data display”](public/assets/imgs/workout.png)
 
  ### Gifs
 <br>
@@ -54,10 +59,6 @@ Then run the command `node server.js` if the connection is successful, you will 
 <br>
 
 ![ Adding a strength exercise and cardio workout to be saved in the app](public/assets/imgs/gifs/workout.gif)
-
-![“”]()
-
-![“"]()
 
 
 
@@ -79,9 +80,10 @@ Then run the command `node server.js` if the connection is successful, you will 
 
 </details>
 
-
+<br>
 ## Challenges
-*   While the actual work of writing the code for this application was a challenge, in the end the part that I struggled with the most was the actual deployment on Heroku. 
+<br>
+ While the actual work of writing the code for this application was a challenge, in the end the part that I struggled with the most was the actual deployment on Heroku. 
 
 I had to create a new user a number of times in Atlas, and reconnect to Heroku in order to finally have the application run properly outside of running it locally. 
 
