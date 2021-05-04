@@ -24,12 +24,16 @@ nav {
   padding: 10px;
   line-height: 3;
   font-size: 1.2rem;
-  text-align: space-around;
+  display: flex;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
   
 }
 
 .dashLink {
-  padding: 30px;
+  padding: 60px;
 }
 
 .trackLink {
@@ -51,7 +55,14 @@ nav a:hover{
 #mainPage {
   background-image: url('/assets/imgs/fit_background.jpeg');
   background-repeat: no-repeat;
-  background-size: 1300px 750px;
+  background-size: 1400px 800px;
+}
+
+#logoImg {
+  height: 165px;
+  width: 165px;
+  margin-top: -55px;
+
 }
 
 header {
