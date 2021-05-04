@@ -81,6 +81,7 @@ _The Workout Dashboard Display_
 </details>
 
 <br>
+
 ## Challenges
 <br>
  While the actual work of writing the code for this application was a challenge, in the end the part that I struggled with the most was the actual deployment on Heroku. 
