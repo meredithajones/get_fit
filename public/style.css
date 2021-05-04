@@ -18,12 +18,14 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
-  color: #ffffff;
+  background:rgba(172, 219, 138, 0.7);
+  color: #4b3d3d;
   height: 80px;
   padding: 10px;
   line-height: 3;
   font-size: 1.2rem;
+  text-align: space-around;
+  
 }
 
 a,
@@ -38,6 +40,12 @@ nav a:hover{
   opacity: 0.7;
 }
 
+#mainPage {
+  background-image: url('/assets/imgs/fit_background.jpeg');
+  background-repeat: no-repeat;
+  background-size: 1300px 750px;
+}
+
 header {
   height: 150px;
   padding-top: 80px;
@@ -47,6 +55,16 @@ header {
 
 header h1 {
   transform: skewX(-2deg);
+  
+}
+
+h1 {
+  background:hsl(94, 40%, 86%, .70);
+  padding: 15px;
+  margin: 10px, 10px, 10px, 10px;
+  max-width: 400px;  
+  margin: auto;
+  width: 50%;
 }
 
 select {
